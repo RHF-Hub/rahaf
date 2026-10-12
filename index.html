@@ -1,0 +1,919 @@
+<!--
+copyright 2026 @Rahaf AlWadei
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahaf</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo2.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+   
+    <canvas id="rahaf-stars"></canvas>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/myLogo.png" alt="Rahaf Alwadei" width="80"> 
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rahaf Alwadei">Rahaf Alwadei</h1>
+
+          <p class="title">  Web developer </p>
+
+          <p class="title"> CyberSecurity </p>
+
+          <p class="title"> Data Analyst </p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:cs.rahaf01@gmail.com" class="contact-link">cs.rahaf01@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Work Preference</p>
+
+              <time datetime="Available for Remote and On-site Roles">Available for Remote and On-site Roles</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Asser, Abha, KSA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://medium.com/@cs.rahaf01" class="social-link">
+              <ion-icon name="logo-Medium"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rahaf-alwadei-8b0749323" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/RHF-Hub" class="social-link">
+              <ion-icon name="logo-GitHub"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I’m a Computer Science graduate specializing in Cybersecurity and Web Development. 
+           I enjoy transforming technical challenges into clear, efficient, and user‑friendly solutions.
+           My work focuses on understanding how systems operate, improving their security, and building modern web experiences that feel smooth, intuitive, and visually engaging.
+          </p>
+
+          <p>
+            My goal is to create digital products that are both functional and aesthetically balanced. 
+            I add a personal touch to every project, ensuring it reflects the identity and message behind it.
+            Whether I’m developing a website, analyzing data, or enhancing system security, I aim to deliver work that is clean, thoughtful, and easy to use.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="data icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  The highest-quality and most accurate data analysis made at a professional level
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web Design and Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design and Development </h4>
+
+                <p class="service-item-text">
+                  High-quality Design and development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Technical Support" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Technical Support</h4>
+
+                <p class="service-item-text">
+                  Exceptional technical support provided with accuracy, speed, and professional expertise.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Networks and Cybersecurity" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Networks and Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  The most secure and high-performance network and cybersecurity solutions delivered at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        
+         <div class="modal-container" data-modal-container> 
+         
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name=""></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" width="80" data-modal-img>
+              </figure>
+
+              <img src="" alt="">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime=""></time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      
+          </ul>
+
+        </section>
+
+      </article> 
+            
+     
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of king khalid</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                 B.Sc. in Computer Science specializing in Cybersecurity, graduated with Second Class Honor.
+              </p>
+
+            </li>
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Coop Training – Deanship of Electronic Services, King Khalid University</h4>
+
+              <span>2025 </span>
+
+              <p class="timeline-text">
+                During my cooperative training at the Deanship of Electronic Services, I gained hands‑on experience in technical support, digital services, and workflow improvement within a university environment. 
+                I assisted in troubleshooting system issues, supporting electronic platforms, and contributing to the enhancement of internal processes.
+              </p>
+
+            </li>
+            
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Office</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Problem solving</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">programming</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+       
+           
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design&Develop</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Design&Develop</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+               <a href="#">
+
+                <figure class="project-img">
+              
+                   <img src="./assets/images/project-1.png" alt="AI chatbot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI chatbot for Afforestation in Saudi Arabia</h3>
+
+                <p class="project-category">Applications</p>
+                  
+              
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design&develop">
+              <a href="#">
+                <figure class="project-img">
+
+                  <img src="./assets/images/project-22.png" alt="header security scanner website" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">header security scanner website</h3>
+
+                <p class="project-category">Web Design&Develop</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="#">
+                <figure class="project-img">
+                
+                  <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Python program for data analysis </h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+             </ul>
+
+             <div class="image-modal2" id="image-modal2">
+   <span class="image-modal-close2" id="image-modal-close2">&times;</span>
+  <img class="image-modal-content2" id="image-modal-img2">
+</div>
+        </section>
+
+      </article>
+
+      <!--
+        - certificate
+      -->
+
+      <article class="certificate" data-page="certificates">
+
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="certificate-posts">
+
+          <ul class="certificate-posts-list">
+            
+
+            <li class="certificate-post-item">
+              <a href="#">
+               
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer-1.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Data</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024">August-2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Data Science in 2024</h3>
+
+                  <p class="certificate-text">
+                    A two-week data analysis, science, and engineering bootcamp.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer-2.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">Data</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023">Sep-2023</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Data Analysis</h3>
+
+                  <p class="certificate-text">
+                    A professional certificate from Google in data analysis consisting of eight courses.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer3.png" alt="Cisco Ethical Hacker" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">CyberSecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025">Apr-2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Cisco Ethical Hacker</h3>
+
+                  <p class="certificate-text">
+                    Professional certification in ethical hacking and penetration testing
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer4.png" alt="IBM Cybersecurity On the Defense" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">CyberSecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024">Jul-2024</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">IBM Cybersecurity On the Defense</h3>
+
+                  <p class="certificate-text">
+                    IBM skillsBuild CyberSecurity On the Defense fundamentals
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer5.png" alt="Cybersecurity Incident Response Analysis" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">CyberSecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025">Aug-2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Cybersecurity Incident Response Analysis</h3>
+
+                  <p class="certificate-text">
+                   STC's Cybersecurity Incident Response Analysis - Misk Foundation
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer6.png" alt="cybersecurity job simulation" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">CyberSecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025">Sep-2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Cybersecurity job simulation</h3>
+
+                  <p class="certificate-text">
+                    Telstra CyberSecurity Job Simulation 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer7.png" alt="Network security" loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">CyberSecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023">Oct-2023</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Computer Network</h3>
+
+                  <p class="certificate-text">
+                   Computer networks from the Ministry of Communications and Information Technology
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certificate-post-item">
+              <a href="#">
+
+                <figure class="certificate-banner-box">
+                  <img src="./assets/images/cer8.png" alt="CyberSecurity job " loading="lazy">
+                </figure>
+
+                <div class="certificate-content">
+
+                  <div class="certificate-meta">
+                    <p class="certificate-category">CyberSecurity</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025">Oct-2025</time>
+                  </div>
+
+                  <h3 class="h3 certificate-item-title">Cybersecurity Job Simulation</h3>
+
+                  <p class="certificate-text">
+                   Deloitte Cybersecurity Job Simulation
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+          </ul>
+          <div class="image-modal" id="image-modal">
+  <span class="image-modal-close" id="image-modal-close">&times;</span>
+  <img class="image-modal-content" id="image-modal-img">
+</div>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121257.76264860548!2d42.466015869318774!3d18.241830777432988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e3546315720931%3A0xa177558c718919b4!2sAbha!5e0!3m2!1sen!2ssa!4v1729946541945!5m2!1sen!2ssa" 
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="form">
+
+  <input type="hidden" name="access_key" value="f2953f1c-3043-47a1-9ee1-52778c45bb65">
+
+  <div class="input-wrapper">
+    <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+    <input type="email" name="email" class="form-input" placeholder="Email address" required>
+  </div>
+
+  <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+  <input type="hidden" name="subject" value="New message from my portfolio">
+
+  <button class="form-btn" type="submit">
+    <ion-icon name="paper-plane"></ion-icon>
+    <span>Send Message</span>
+  </button>
+
+</form>
+<div id="success-modal" class="modal">
+  <div class="modal-content">
+    <p>Your message has been sent successfully.✔️</p>
+    <button id="close-modal">Close</button>
+  </div>
+</div>
+
+
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+</body>
+
+</html>
+
+<!--
+**********************************************************************************END OF CODE <3************************************************************************
+-->
